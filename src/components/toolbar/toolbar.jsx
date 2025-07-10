@@ -11,7 +11,6 @@ import Tooltip from '@mui/material/Tooltip';
 import Home from '../Home/Home';
 import About from '../About/About';
 import Experience from '../Experience/Experience';
-import Contact from '../Contact/Contact';
 import BrownieGallery from '../BrownieGallery';
 import SammyGallery from '../SammyGallery';
 import LatteArtGallery from '../LatteArtGallery';
@@ -34,7 +33,6 @@ export function ToolBar() {
                 <Route path="/about/brownie-gallery" element={<BrownieGallery />} />
                 <Route path="/about/sammy-gallery" element={<SammyGallery />} />
                 <Route path="/about/latte-art-gallery" element={<LatteArtGallery />} />
-                <Route path="/contact" element={<Contact />} />
                 <Route path="/experience" element={<Experience />} />
             </Routes>
         </Router>
