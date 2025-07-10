@@ -31,9 +31,9 @@ export function ToolBar() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
-                <Route path="about/brownie-gallery" element={<BrownieGallery />} />
-                <Route path="about/sammy-gallery" element={<SammyGallery />} />
-                 <Route path="about/latte-art-gallery" element={<LatteArtGallery />} />
+                <Route path="/about/brownie-gallery" element={<BrownieGallery />} />
+                <Route path="/about/sammy-gallery" element={<SammyGallery />} />
+                <Route path="/about/latte-art-gallery" element={<LatteArtGallery />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/experience" element={<Experience />} />
             </Routes>
