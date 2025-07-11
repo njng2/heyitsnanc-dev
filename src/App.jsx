@@ -25,20 +25,19 @@ export default function App() {
           target = "_blank"
           href="https://www.linkedin.com/in/nancyjng/"
           sx={{
-            position: "absolute", // Absolutely position the button
-            bottom: 24, // Distance from the bottom (adjust as needed for spacing)
-            right: 24, // Distance from the right (adjust as needed for spacing)
+            position: "absolute", 
+            bottom: 24, 
+            right: 24, 
             zIndex: 1000,
-            // Add some FAB-like styling for better appearance:
-            boxShadow: 3, // Adds a subtle shadow
-            backgroundColor: "primary.main", // Use theme's primary color
-            color: "primary.contrastText", // Use theme's contrast text for icon color
+            boxShadow: 3, 
+            backgroundColor: "primary.main", 
+            color: "primary.contrastText", 
             "&:hover": {
-              backgroundColor: "primary.dark", // Darken on hover
-              transform: "scale(1.1)", // Slightly enlarge on hover for feedback
+              backgroundColor: "primary.dark", 
+              transform: "scale(1.1)", 
             },
-            width: 56, // Standard FAB size
-            height: 56, // Standard FAB size
+            width: 56, 
+            height: 56, 
           }}
         >
           <LinkedInIcon />
